@@ -21,7 +21,7 @@ import com.example.samuraitravel.form.ReservationInputForm;
 import com.example.samuraitravel.repository.HouseRepository;
 import com.example.samuraitravel.repository.ReviewRepository;
 import com.example.samuraitravel.security.UserDetailsImpl;
-import com.stripe.service.ReviewService;
+import com.example.samuraitravel.service.ReviewService;
 
 @Controller
 @RequestMapping("/houses")
